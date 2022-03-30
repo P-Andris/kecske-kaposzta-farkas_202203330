@@ -58,7 +58,6 @@ function init() {
     $("#csonak img").alt = "csonak";
     $("#csonak img").className = "csonak";
 
-    
     /* console.log($a("#bal img"));
     console.log($a("#bal img")[0]); */
     var kepekHossza = $a("#bal img").length;
