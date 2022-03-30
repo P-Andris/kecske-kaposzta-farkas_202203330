@@ -1,0 +1,40 @@
+main {
+    display: grid;
+    grid-template-areas: "h h h h"
+                         "as1 ar ar as2"
+                         "f f f f";
+    grid-template-columns: 300px auto 300px;
+}
+
+header, #bal, article, #jobb, footer {
+    border: 1px solid black;
+}
+
+header {
+    grid-area: h;
+}
+
+#bal {
+    grid-area: as1;
+}
+
+#bal img {
+    width: 150px;
+}
+
+#csonak img {
+    width: 300px;
+}
+
+#jobb {
+    grid-area: as2;
+}
+
+footer {
+    grid-area: f;
+}
+
+.kiemel {
+    border: 2px solid red;
+    cursor: grab;
+}
