@@ -12,6 +12,7 @@ header, #bal, article, #jobb, footer {
 
 header {
     grid-area: h;
+    margin-bottom: 25px;
 }
 
 #bal {
@@ -22,7 +23,18 @@ header {
     width: 150px;
 }
 
+article {
+    grid-area: ar;
+    margin: 0 25px 0 25px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
 #csonak img {
+    width: 100px;
+}
+
+#csonak .csonak {
     width: 300px;
 }
 
@@ -32,6 +44,8 @@ header {
 
 footer {
     grid-area: f;
+    margin-top: 25px;
+    background-color: lightblue;
 }
 
 .kiemel {
